@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Charles Hanks"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/chanks06
+      - icon: linkedin
+        href: https://www.linkedin.com/in/charles-hanks-ds2223/
+format:
+  html:
+    theme: slate
+    css: styles.css
+
+editor: visual
+
